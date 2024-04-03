@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import ListComponent from './component/props/list/list';
+import Table from './table/table';
 
+// import ListComponent from './component/props/list/list';
 // import CustomButton from './component/function-component/button/button';
 // import CustomForm from './component/function-component/form/form';
 // import Heading from './component/function-component/heading/heading';
@@ -32,7 +33,9 @@ function App() {
       <CustomForm/>
       <CustomList/>
       <CustomTable/> */}
-      <ListComponent/>
+      {/* <ListComponent/> */}
+      <Table/>
+      
     </div>
   );
 }
