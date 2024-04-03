@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Items from './conditional_rendering/items';
 import Table from './table/table';
 
 // import ListComponent from './component/props/list/list';
@@ -35,7 +36,7 @@ function App() {
       <CustomTable/> */}
       {/* <ListComponent/> */}
       <Table/>
-      
+      <Items/>
     </div>
   );
 }
