@@ -3,7 +3,7 @@
 function CustomList (){
     return (
         <>
-        <h2>Lists</h2>
+        <h1>Lists</h1>
         <ul>
             <li>krishna</li>
             <li>Mohan</li>

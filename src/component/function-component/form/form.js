@@ -1,7 +1,7 @@
 function CustomForm() {
     return (
       <>
-      <h2>Form</h2>
+      <h1>Form</h1>
       <form className="frm">
         <label>
           Enter Username:

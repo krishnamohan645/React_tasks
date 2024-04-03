@@ -1,11 +1,7 @@
-import {Component} from "react"
-
-
-class ClassTable extends Component{
-    render(){
-        return(
-            <>
- <h2>Table</h2>
+function CustomTable (){
+    return(
+        <>
+        <h1>Table</h1>
         <table className="tbl">
             <thead>
             <tr>
@@ -26,10 +22,10 @@ class ClassTable extends Component{
                 <td>20</td>
             </tr>
             </tbody>
-        </table>       
-         </>
-        )
-    }
+        </table>
+        </>
+    )
+
 }
 
-export default ClassTable
+export default CustomTable
