@@ -1,47 +1,43 @@
 // import logo from './logo.svg';
 import './App.css';
-import ListComponent from './components/props/list/list';
-// import ClassButton from './components/class-components/button/button';
-// import ClassForm from './components/class-components/form/form';
-// import ClassHeading from './components/class-components/heading/heading';
-// import ClassImage from './components/class-components/image/image';
-// import ClassList from './components/class-components/list/list';
-// import ClassTable from './components/class-components/table/table';
+import Items from './conditional_rendering/items';
+import Table from './table/table';
 
-// import CustomButton from "./components/functional-components/button/button";
-// import CustomForm from "./components/functional-components/form/form";
-// import Heading from "./components/functional-components/heading/heading";
-// import CustomImage from "./components/functional-components/image/image";
-// import CustomList from "./components/functional-components/list/list";
-// import CustomTable from "./components/functional-components/table/table";
+// import ListComponent from './component/props/list/list';
+// import CustomButton from './component/function-component/button/button';
+// import CustomForm from './component/function-component/form/form';
+// import Heading from './component/function-component/heading/heading';
+// import CustomImage from './component/function-component/image/image';
+// import CustomList from './component/function-component/lists/list';
+// import CustomTable from './component/function-component/table/table';
+// import CustomButton from './component/function-component/button/button';
+// import ButtonComponent from './component/class-component/button/button';
+// import CustomImage from './component/function-component/image/image';
+// import ImageComponent from './component/class-component/image/image';
 
-// import ButtonComponent from "./components/class-components/button";
-// import CustomButton from './components/functional-components/button/button';
-// import CustomImage from './components/functional-components/image/image';
+
+
 
 function App() {
   return (
-    <>
-    {/* <ButtonComponent/>
-    <CustomButton/>
-    <h4>Login feature</h4>
-    <CustomImage/> */}
-
-    {/* <Heading/>
-    <CustomButton/>
-    <CustomImage/>
-    <CustomForm/>
-    <CustomList/>
-    <CustomTable/>
-    <ClassHeading/>
-    <ClassButton/>
-    <ClassImage/>
-    <ClassForm/>
-    <ClassList/>
-    <ClassTable/> */}
-    <ListComponent/>
-
-    </>
+    <div className="App">
+      {/* <CustomButton/>
+      <CustomButton/>
+      <CustomButton/>
+      <CustomButton/>
+      <ButtonComponent/>
+      <CustomImage/>
+      <ImageComponent/> */}
+      {/* <Heading/>
+      <CustomButton/>
+      <CustomImage/>
+      <CustomForm/>
+      <CustomList/>
+      <CustomTable/> */}
+      {/* <ListComponent/> */}
+      <Table/>
+      <Items/>
+    </div>
   );
 }
 
