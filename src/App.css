@@ -38,9 +38,34 @@
 } */
 
 
-.tbl, tr ,td{
+
+img{
+  padding-top: 50px;
+}
+
+.frm{
+  display: inline-block;
+  padding-top: 10px;
+}
+
+
+.tbl, tr,th,td{
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
